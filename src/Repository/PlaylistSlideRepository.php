@@ -89,6 +89,14 @@ class PlaylistSlideRepository extends ServiceEntityRepository
                 $this->entityManager->remove($entity);
             }
 
+            if (0 == count($collection)) {
+                $playlistSlide = $this->findOneBy(['playlist' => $playlistUlid]);
+                if ($playlistSlide) {
+                    $this->entityManager->remove($playlistSlide);
+                    $this->entityManager->flush();
+                }
+            }
+
             foreach ($collection as $entity) {
                 $slide = $slideRepos->findOneBy(['id' => $entity->slide]);
                 if (is_null($slide)) {
