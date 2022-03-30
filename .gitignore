@@ -28,3 +28,4 @@ public/media/*
 
 xdebug.ini
 launch.json
+docker-compose.override.yml
