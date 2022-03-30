@@ -193,7 +193,4 @@ resources:
           responses:
             '200':
               description: OK
-              content:
-                application/ld+json:
-                  examples:
               headers: { }

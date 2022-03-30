@@ -390,9 +390,6 @@ paths:
       responses:
         200:
           description: OK
-          content:
-            application/ld+json:
-              examples: null
           headers: {  }
       summary: 'Retrieves a collection of FeedSource resources.'
       description: 'Retrieves a collection of FeedSource resources.'
@@ -582,9 +579,6 @@ paths:
       responses:
         200:
           description: OK
-          content:
-            application/ld+json:
-              examples: null
           headers: {  }
         404:
           description: 'Resource not found'
@@ -663,9 +657,6 @@ paths:
       responses:
         200:
           description: OK
-          content:
-            application/ld+json:
-              examples: null
           headers: {  }
       summary: 'Retrieves a collection of Feed resources.'
       description: 'Retrieves a collection of Feed resources.'
@@ -775,9 +766,6 @@ paths:
       responses:
         200:
           description: OK
-          content:
-            application/ld+json:
-              examples: null
           headers: {  }
         404:
           description: 'Resource not found'
@@ -845,9 +833,6 @@ paths:
       responses:
         200:
           description: OK
-          content:
-            application/ld+json:
-              examples: null
           headers: {  }
       summary: 'Retrieves a collection of layouts resources.'
       description: 'Retrieve a collection of layouts resources.'
@@ -892,9 +877,6 @@ paths:
       responses:
         200:
           description: OK
-          content:
-            application/ld+json:
-              examples: null
           headers: {  }
         404:
           description: 'Resource not found'
@@ -1139,9 +1121,6 @@ paths:
       responses:
         200:
           description: OK
-          content:
-            application/ld+json:
-              examples: null
           headers: {  }
         404:
           description: 'Resource not found'
@@ -1199,9 +1178,6 @@ paths:
       responses:
         200:
           description: OK
-          content:
-            application/ld+json:
-              examples: null
           headers: {  }
       summary: 'Retrieves a collection of Slide resources base on Playlist.'
       description: 'Retrieves a collection of Slide resources.'
@@ -1315,9 +1291,6 @@ paths:
       responses:
         200:
           description: OK
-          content:
-            application/ld+json:
-              examples: null
           headers: {  }
       summary: 'Retrieve a collection of Playlist resources.'
       description: 'Retrieves a collection of Playlist resources.'
@@ -1572,9 +1545,6 @@ paths:
       responses:
         200:
           description: OK
-          content:
-            application/ld+json:
-              examples: null
           headers: {  }
         404:
           description: 'Resource not found'
@@ -1687,9 +1657,6 @@ paths:
       responses:
         200:
           description: OK
-          content:
-            application/ld+json:
-              examples: null
           headers: {  }
       summary: 'Retrieves collection of weight Slide resources.'
       description: 'Retrieves collection of weight Slide resources.'
@@ -1934,9 +1901,6 @@ paths:
       responses:
         200:
           description: OK
-          content:
-            application/ld+json:
-              examples: null
           headers: {  }
       summary: 'Retrieves a collection of Screen group resources.'
       description: 'Retrieve a collection of Screen group resources.'
@@ -2176,9 +2140,6 @@ paths:
       responses:
         200:
           description: OK
-          content:
-            application/ld+json:
-              examples: null
           headers: {  }
         404:
           description: 'Resource not found'
@@ -2291,9 +2252,6 @@ paths:
       responses:
         200:
           description: OK
-          content:
-            application/ld+json:
-              examples: null
           headers: {  }
       summary: 'Retrieves collection of campaign resources.'
       description: 'Retrieves collection of campaign resources.'
@@ -2613,9 +2571,6 @@ paths:
       responses:
         200:
           description: OK
-          content:
-            application/ld+json:
-              examples: null
           headers: {  }
       summary: 'Retrieves a collection of Screen resources.'
       description: 'Retrieves a collection of Screen resources.'
@@ -2806,9 +2761,6 @@ paths:
       responses:
         200:
           description: OK
-          content:
-            application/ld+json:
-              examples: null
           headers: {  }
         404:
           description: 'Resource not found'
@@ -2953,9 +2905,6 @@ paths:
       responses:
         200:
           description: OK
-          content:
-            application/ld+json:
-              examples: null
           headers: {  }
       summary: 'Retrieves collection of campaign resources.'
       description: 'Retrieves collection of campaign resources.'
@@ -3509,9 +3458,6 @@ paths:
       responses:
         200:
           description: OK
-          content:
-            application/ld+json:
-              examples: null
         400:
           description: 'Invalid input'
         422:
@@ -3614,7 +3560,9 @@ paths:
           allowReserved: false
       requestBody:
         description: 'Unbind from machine'
-        content: {  }
+        content:
+          application/json:
+            schema: {  }
         required: false
       deprecated: false
     parameters: []
@@ -3626,9 +3574,6 @@ paths:
       responses:
         200:
           description: OK
-          content:
-            application/ld+json:
-              examples: null
           headers: {  }
       summary: 'Retrieves a collection of Slide resources.'
       description: 'Retrieves a collection of Slide resources.'
@@ -3843,9 +3788,6 @@ paths:
       responses:
         200:
           description: OK
-          content:
-            application/ld+json:
-              examples: null
           headers: {  }
         404:
           description: 'Resource not found'
@@ -4180,9 +4122,6 @@ paths:
       responses:
         200:
           description: OK
-          content:
-            application/ld+json:
-              examples: null
           headers: {  }
       summary: 'Retrieve a collection of Template resources.'
       description: 'Retrieve a collection of Template resources.'
@@ -4316,9 +4255,6 @@ paths:
       responses:
         200:
           description: OK
-          content:
-            application/ld+json:
-              examples: null
           headers: {  }
         404:
           description: 'Resource not found'
@@ -4349,9 +4285,6 @@ paths:
       responses:
         200:
           description: OK
-          content:
-            application/ld+json:
-              examples: null
           headers: {  }
       summary: 'Retrieves a collection of tenant resources.'
       description: 'Retrieves a collection of tenant resources.'
@@ -4470,9 +4403,6 @@ paths:
       responses:
         200:
           description: OK
-          content:
-            application/ld+json:
-              examples: null
           headers: {  }
         404:
           description: 'Resource not found'
@@ -4503,9 +4433,6 @@ paths:
       responses:
         200:
           description: OK
-          content:
-            application/ld+json:
-              examples: null
           headers: {  }
       summary: 'Retrieve a collection of Theme resources.'
       description: 'Retrieve a collection of Theme resources.'
@@ -4708,9 +4635,6 @@ paths:
       responses:
         200:
           description: OK
-          content:
-            application/ld+json:
-              examples: null
           headers: {  }
         404:
           description: 'Resource not found'

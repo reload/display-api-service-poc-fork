@@ -658,11 +658,6 @@
                 "responses": {
                     "200": {
                         "description": "OK",
-                        "content": {
-                            "application/ld+json": {
-                                "examples": null
-                            }
-                        },
                         "headers": {}
                     }
                 },
@@ -890,11 +885,6 @@
                 "responses": {
                     "200": {
                         "description": "OK",
-                        "content": {
-                            "application/ld+json": {
-                                "examples": null
-                            }
-                        },
                         "headers": {}
                     },
                     "404": {
@@ -1003,11 +993,6 @@
                 "responses": {
                     "200": {
                         "description": "OK",
-                        "content": {
-                            "application/ld+json": {
-                                "examples": null
-                            }
-                        },
                         "headers": {}
                     }
                 },
@@ -1140,11 +1125,6 @@
                 "responses": {
                     "200": {
                         "description": "OK",
-                        "content": {
-                            "application/ld+json": {
-                                "examples": null
-                            }
-                        },
                         "headers": {}
                     },
                     "404": {
@@ -1246,11 +1226,6 @@
                 "responses": {
                     "200": {
                         "description": "OK",
-                        "content": {
-                            "application/ld+json": {
-                                "examples": null
-                            }
-                        },
                         "headers": {}
                     }
                 },
@@ -1305,11 +1280,6 @@
                 "responses": {
                     "200": {
                         "description": "OK",
-                        "content": {
-                            "application/ld+json": {
-                                "examples": null
-                            }
-                        },
                         "headers": {}
                     },
                     "404": {
@@ -1621,11 +1591,6 @@
                 "responses": {
                     "200": {
                         "description": "OK",
-                        "content": {
-                            "application/ld+json": {
-                                "examples": null
-                            }
-                        },
                         "headers": {}
                     },
                     "404": {
@@ -1700,11 +1665,6 @@
                 "responses": {
                     "200": {
                         "description": "OK",
-                        "content": {
-                            "application/ld+json": {
-                                "examples": null
-                            }
-                        },
                         "headers": {}
                     }
                 },
@@ -1841,11 +1801,6 @@
                 "responses": {
                     "200": {
                         "description": "OK",
-                        "content": {
-                            "application/ld+json": {
-                                "examples": null
-                            }
-                        },
                         "headers": {}
                     }
                 },
@@ -2163,11 +2118,6 @@
                 "responses": {
                     "200": {
                         "description": "OK",
-                        "content": {
-                            "application/ld+json": {
-                                "examples": null
-                            }
-                        },
                         "headers": {}
                     },
                     "404": {
@@ -2322,11 +2272,6 @@
                 "responses": {
                     "200": {
                         "description": "OK",
-                        "content": {
-                            "application/ld+json": {
-                                "examples": null
-                            }
-                        },
                         "headers": {}
                     }
                 },
@@ -2657,11 +2602,6 @@
                 "responses": {
                     "200": {
                         "description": "OK",
-                        "content": {
-                            "application/ld+json": {
-                                "examples": null
-                            }
-                        },
                         "headers": {}
                     }
                 },
@@ -2971,11 +2911,6 @@
                 "responses": {
                     "200": {
                         "description": "OK",
-                        "content": {
-                            "application/ld+json": {
-                                "examples": null
-                            }
-                        },
                         "headers": {}
                     },
                     "404": {
@@ -3130,11 +3065,6 @@
                 "responses": {
                     "200": {
                         "description": "OK",
-                        "content": {
-                            "application/ld+json": {
-                                "examples": null
-                            }
-                        },
                         "headers": {}
                     }
                 },
@@ -3627,11 +3557,6 @@
                 "responses": {
                     "200": {
                         "description": "OK",
-                        "content": {
-                            "application/ld+json": {
-                                "examples": null
-                            }
-                        },
                         "headers": {}
                     }
                 },
@@ -3874,11 +3799,6 @@
                 "responses": {
                     "200": {
                         "description": "OK",
-                        "content": {
-                            "application/ld+json": {
-                                "examples": null
-                            }
-                        },
                         "headers": {}
                     },
                     "404": {
@@ -4077,11 +3997,6 @@
                 "responses": {
                     "200": {
                         "description": "OK",
-                        "content": {
-                            "application/ld+json": {
-                                "examples": null
-                            }
-                        },
                         "headers": {}
                     }
                 },
@@ -4945,12 +4860,7 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "OK",
-                        "content": {
-                            "application/ld+json": {
-                                "examples": null
-                            }
-                        }
+                        "description": "OK"
                     },
                     "400": {
                         "description": "Invalid input"
@@ -5085,7 +4995,11 @@
                 ],
                 "requestBody": {
                     "description": "Unbind from machine",
-                    "content": {},
+                    "content": {
+                        "application/json": {
+                            "schema": {}
+                        }
+                    },
                     "required": false
                 },
                 "deprecated": false
@@ -5101,11 +5015,6 @@
                 "responses": {
                     "200": {
                         "description": "OK",
-                        "content": {
-                            "application/ld+json": {
-                                "examples": null
-                            }
-                        },
                         "headers": {}
                     }
                 },
@@ -5376,11 +5285,6 @@
                 "responses": {
                     "200": {
                         "description": "OK",
-                        "content": {
-                            "application/ld+json": {
-                                "examples": null
-                            }
-                        },
                         "headers": {}
                     },
                     "404": {
@@ -5967,11 +5871,6 @@
                 "responses": {
                     "200": {
                         "description": "OK",
-                        "content": {
-                            "application/ld+json": {
-                                "examples": null
-                            }
-                        },
                         "headers": {}
                     }
                 },
@@ -6132,11 +6031,6 @@
                 "responses": {
                     "200": {
                         "description": "OK",
-                        "content": {
-                            "application/ld+json": {
-                                "examples": null
-                            }
-                        },
                         "headers": {}
                     },
                     "404": {
@@ -6176,11 +6070,6 @@
                 "responses": {
                     "200": {
                         "description": "OK",
-                        "content": {
-                            "application/ld+json": {
-                                "examples": null
-                            }
-                        },
                         "headers": {}
                     }
                 },
@@ -6323,11 +6212,6 @@
                 "responses": {
                     "200": {
                         "description": "OK",
-                        "content": {
-                            "application/ld+json": {
-                                "examples": null
-                            }
-                        },
                         "headers": {}
                     },
                     "404": {
@@ -6367,11 +6251,6 @@
                 "responses": {
                     "200": {
                         "description": "OK",
-                        "content": {
-                            "application/ld+json": {
-                                "examples": null
-                            }
-                        },
                         "headers": {}
                     }
                 },
@@ -6628,11 +6507,6 @@
                 "responses": {
                     "200": {
                         "description": "OK",
-                        "content": {
-                            "application/ld+json": {
-                                "examples": null
-                            }
-                        },
                         "headers": {}
                     },
                     "404": {

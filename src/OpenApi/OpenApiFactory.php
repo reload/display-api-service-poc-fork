@@ -406,7 +406,9 @@ class OpenApiFactory implements OpenApiFactoryInterface
                 ],
                 requestBody: new Model\RequestBody(
                     description: 'Unbind from machine',
-                    content: new \ArrayObject(),
+                    content: new \ArrayObject([
+                        'application/json' => ['schema' => new \ArrayObject()],
+                    ]),
                 ),
             ),
         );

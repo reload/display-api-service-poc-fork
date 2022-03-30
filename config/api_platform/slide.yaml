@@ -25,9 +25,6 @@ resources:
           responses:
             '200':
               description: OK
-              content:
-                application/ld+json:
-                  examples:
               headers: { }
 
       put:
@@ -88,9 +85,6 @@ resources:
           responses:
             '200':
               description: OK
-              content:
-                application/ld+json:
-                  examples:
               headers: {}
 
       post:
@@ -137,7 +131,4 @@ resources:
           responses:
             '200':
               description: OK
-              content:
-                application/ld+json:
-                  examples:
               headers: { }

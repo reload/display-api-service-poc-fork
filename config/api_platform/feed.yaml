@@ -23,9 +23,6 @@ resources:
           responses:
             '200':
               description: OK
-              content:
-                application/ld+json:
-                  examples:
               headers: { }
 
       feed_data:
@@ -85,8 +82,5 @@ resources:
           responses:
             '200':
               description: OK
-              content:
-                application/ld+json:
-                  examples:
               headers: { }
 
